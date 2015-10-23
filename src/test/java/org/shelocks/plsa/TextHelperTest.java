@@ -15,7 +15,7 @@ public class TextHelperTest {
     
     @Test
     public void testAnalyze() throws IOException{
-        Analyzer analyzer=new StandardAnalyzer(Version.LUCENE_36);
+        Analyzer analyzer=new StandardAnalyzer();
         
         List<String> words=new LinkedList<String>();
         StringReader in=new StringReader("Aeronautical Research Laboratory");
